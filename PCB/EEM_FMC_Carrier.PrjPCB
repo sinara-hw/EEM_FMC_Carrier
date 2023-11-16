@@ -25,13 +25,15 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for Phaser
+IsVirtualBomDocumentRemoved=0
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -41,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=EEM
 
 [Preferences]
 PrefsVaultGUID=
@@ -438,7 +441,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document24]
-DocumentPath=EEM_FMC_Carrier.OutJob
+DocumentPath=EEM_FMC_Carrier.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -448,14 +451,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document25]
-DocumentPath=Schlib1.SchLib
+DocumentPath=EEM_FMC_Carrier.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -465,35 +468,18 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=GKBOLHOE
-
-[Document26]
-DocumentPath=PcbLib1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XMKDJJVD
+DocumentUniqueId=HKQUQIGI
 
 [ProjectVariant1]
 UniqueID=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
-VariationCount=156
+VariationCount=150
 Variation1=Designator=R156|UniqueId=\HFXIRERH\HJFKCOUH|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R156
@@ -544,90 +530,81 @@ Variation33=Designator=R174|UniqueId=\HFXIRERH\TWRJQGIG|Kind=1|AlternatePart=
 Variation34=Designator=R175|UniqueId=\HFXIRERH\ALQFJAHH|Kind=1|AlternatePart= 
 Variation35=Designator=R176|UniqueId=\HFXIRERH\ISULDCGE|Kind=1|AlternatePart= 
 Variation36=Designator=R177|UniqueId=\HFXIRERH\JNIEBIGX|Kind=1|AlternatePart= 
-Variation37=Designator=R179|UniqueId=\HFXIRERH\KEYJIDSG|Kind=1|AlternatePart= 
-Variation38=Designator=R180|UniqueId=\HFXIRERH\DMUFOKNR|Kind=1|AlternatePart= 
-Variation39=Designator=J6|UniqueId=\RTXBABPE\LIDFICHD|Kind=1|AlternatePart= 
-Variation40=Designator=J7|UniqueId=\RTXBABPE\HQYQOTEN|Kind=1|AlternatePart= 
-Variation41=Designator=R133|UniqueId=\RTXBABPE\UVGBZHRB|Kind=1|AlternatePart= 
-Variation42=Designator=R135|UniqueId=\RTXBABPE\TDLAKUCP|Kind=1|AlternatePart= 
-Variation43=Designator=R138|UniqueId=\RTXBABPE\TFVFGQYW|Kind=1|AlternatePart= 
-Variation44=Designator=D5|UniqueId=\RTXBABPE\SSAIDNIQ|Kind=1|AlternatePart= 
-Variation45=Designator=D6|UniqueId=\RTXBABPE\OKUTGPIB|Kind=1|AlternatePart= 
-Variation46=Designator=D7|UniqueId=\RTXBABPE\YMIPYWMH|Kind=1|AlternatePart= 
-Variation47=Designator=R130|UniqueId=\RTXBABPE\GJFTARJQ|Kind=1|AlternatePart= 
-Variation48=Designator=R132|UniqueId=\RTXBABPE\KZPWKCYA|Kind=1|AlternatePart= 
-Variation49=Designator=R131|UniqueId=\RTXBABPE\WYZXRGTB|Kind=1|AlternatePart= 
-Variation50=Designator=R134|UniqueId=\RTXBABPE\VBZDRNFF|Kind=1|AlternatePart= 
-Variation51=Designator=R136|UniqueId=\RTXBABPE\FDWNKILN|Kind=1|AlternatePart= 
-Variation52=Designator=R137|UniqueId=\RTXBABPE\IKHZUHOD|Kind=1|AlternatePart= 
-Variation53=Designator=R139|UniqueId=\RTXBABPE\LVDYHNVL|Kind=1|AlternatePart= 
-Variation54=Designator=R140|UniqueId=\RTXBABPE\XRKNLBVE|Kind=1|AlternatePart= 
-Variation55=Designator=R127|UniqueId=\RTXBABPE\LWKOEMVT|Kind=1|AlternatePart= 
-Variation56=Designator=R128|UniqueId=\RTXBABPE\OGIJIKPG|Kind=1|AlternatePart= 
-Variation57=Designator=R141|UniqueId=\RTXBABPE\KCNKNBIE|Kind=1|AlternatePart= 
-Variation58=Designator=R142|UniqueId=\RTXBABPE\ASOQJQNE|Kind=1|AlternatePart= 
-Variation59=Designator=R143|UniqueId=\RTXBABPE\NCKDIACB|Kind=1|AlternatePart= 
-Variation60=Designator=R144|UniqueId=\RTXBABPE\WHTHXHHE|Kind=1|AlternatePart= 
-Variation61=Designator=C1|UniqueId=\JBOQDPNK\UOYEGMJH|Kind=1|AlternatePart= 
-Variation62=Designator=C2|UniqueId=\JBOQDPNK\UCHXOPML|Kind=1|AlternatePart= 
-Variation63=Designator=IC3|UniqueId=\JBOQDPNK\PXSJKTHS|Kind=1|AlternatePart= 
-Variation64=Designator=C9|UniqueId=\JBOQDPNK\UMCSKEKN|Kind=1|AlternatePart= 
-Variation65=Designator=C14|UniqueId=\JBOQDPNK\ORDYQWQY|Kind=1|AlternatePart= 
-Variation66=Designator=C17|UniqueId=\JBOQDPNK\WDIQDYTQ|Kind=1|AlternatePart= 
-Variation67=Designator=C30|UniqueId=\JBOQDPNK\BTHBHKRJ|Kind=1|AlternatePart= 
-Variation68=Designator=C29|UniqueId=\JBOQDPNK\WSFENJFR|Kind=1|AlternatePart= 
-Variation69=Designator=R22|UniqueId=\JBOQDPNK\OANMMAOT|Kind=1|AlternatePart= 
-Variation70=Designator=R2|UniqueId=\JBOQDPNK\UIJGILKO|Kind=1|AlternatePart= 
-Variation71=Designator=R4|UniqueId=\JBOQDPNK\MPNEPUBV|Kind=1|AlternatePart= 
-Variation72=Designator=R10|UniqueId=\JBOQDPNK\GWHOFHRC|Kind=1|AlternatePart= 
-Variation73=Designator=R115|UniqueId=\VGRJJZGJ\OIKHLSCP|Kind=1|AlternatePart= 
-Variation74=Designator=R114|UniqueId=\VGRJJZGJ\QOHDDBRF|Kind=1|AlternatePart= 
-Variation75=Designator=R94|UniqueId=\VGRJJZGJ\KHTOCGYL|Kind=1|AlternatePart= 
-Variation76=Designator=C213|UniqueId=\ANNHCMBV\KLGYBYXT|Kind=1|AlternatePart= 
-Variation77=Designator=C214|UniqueId=\ANNHCMBV\MKKQVIGF|Kind=1|AlternatePart= 
-Variation78=Designator=C217|UniqueId=\ANNHCMBV\FXCONXVT|Kind=1|AlternatePart= 
-Variation79=Designator=C218|UniqueId=\ANNHCMBV\DWWYGFUM|Kind=1|AlternatePart= 
-Variation80=Designator=IC5|UniqueId=\JRHWWSLK\PJQAMNKS|Kind=1|AlternatePart= 
-Variation81=Designator=IC6|UniqueId=\JRHWWSLK\HQOSEQKE|Kind=1|AlternatePart= 
-Variation82=Designator=IC7|UniqueId=\JRHWWSLK\HORKDUKL|Kind=1|AlternatePart= 
-Variation83=Designator=C46|UniqueId=\JRHWWSLK\XXPLOBVG|Kind=1|AlternatePart= 
-Variation84=Designator=C47|UniqueId=\JRHWWSLK\IFVDRYAD|Kind=1|AlternatePart= 
-Variation85=Designator=C48|UniqueId=\JRHWWSLK\BVQDRYQX|Kind=1|AlternatePart= 
-Variation86=Designator=C49|UniqueId=\JRHWWSLK\OXRDDNOR|Kind=1|AlternatePart= 
-Variation87=Designator=C50|UniqueId=\JRHWWSLK\RYGJXFOU|Kind=1|AlternatePart= 
-Variation88=Designator=C51|UniqueId=\JRHWWSLK\BPCBXWVF|Kind=1|AlternatePart= 
-Variation89=Designator=IC13|UniqueId=\EATHWGPN\MGLRDHFG|Kind=1|AlternatePart= 
-Variation90=Designator=C94|UniqueId=\EATHWGPN\SWGDCRXD|Kind=1|AlternatePart= 
-Variation91=Designator=R73|UniqueId=\EATHWGPN\QLPWJACR|Kind=1|AlternatePart= 
-Variation92=Designator=R74|UniqueId=\EATHWGPN\PRTPVXHD|Kind=1|AlternatePart= 
-Variation93=Designator=R75|UniqueId=\EATHWGPN\FPWSCVXA|Kind=1|AlternatePart= 
-Variation94=Designator=C95|UniqueId=\EATHWGPN\YGBYFXOP|Kind=1|AlternatePart= 
-Variation95=Designator=C96|UniqueId=\EATHWGPN\WTLRIUSJ|Kind=1|AlternatePart= 
-Variation96=Designator=L29|UniqueId=\EATHWGPN\LAFPXLQR|Kind=1|AlternatePart= 
-Variation97=Designator=C201|UniqueId=\EATHWGPN\WGJBLHHC|Kind=1|AlternatePart= 
-Variation98=Designator=IC35|UniqueId=\EATHWGPN\JEVAYPNA|Kind=1|AlternatePart= 
-Variation99=Designator=C202|UniqueId=\EATHWGPN\JUAYOQWK|Kind=1|AlternatePart= 
-Variation100=Designator=C286|UniqueId=\EATHWGPN\GQTIMHHP|Kind=1|AlternatePart= 
-Variation101=Designator=R38|UniqueId=\IDVNPMOJ\PQGUABLU|Kind=1|AlternatePart= 
-Variation102=Designator=R39|UniqueId=\IDVNPMOJ\TTRWSQTV|Kind=1|AlternatePart= 
-Variation103=Designator=R40|UniqueId=\IDVNPMOJ\HSOMLDTW|Kind=1|AlternatePart= 
-Variation104=Designator=R41|UniqueId=\IDVNPMOJ\DWVKEMLK|Kind=1|AlternatePart= 
-Variation105=Designator=J10|UniqueId=\TAKSADSN\ICIHXVKV|Kind=1|AlternatePart= 
-Variation106=Designator=T17|UniqueId=\CXDKFJFY\NXOGWTRT|Kind=1|AlternatePart= 
-Variation107=Designator=R253|UniqueId=\CXDKFJFY\PKSVGHPV|Kind=1|AlternatePart= 
-Variation108=Designator=R251|UniqueId=\CXDKFJFY\KQARVNDR|Kind=1|AlternatePart= 
-Variation109=Designator=R77|UniqueId=\JBOQDPNK\VOCOIYXG|Kind=1|AlternatePart= 
-Variation110=Designator=R257|UniqueId=\HFXIRERH\TZTVHGRT|Kind=1|AlternatePart= 
-Variation111=Designator=R260|UniqueId=\HFXIRERH\AXYLQSZO|Kind=1|AlternatePart= 
-Variation112=Designator=R262|UniqueId=\HFXIRERH\YHUVLHMV|Kind=1|AlternatePart= 
-Variation113=Designator=R261|UniqueId=\HFXIRERH\XQCAEUOP|Kind=1|AlternatePart= 
-Variation114=Designator=R245|UniqueId=\RTXBABPE\TSIXEXUK|Kind=1|AlternatePart= 
-Variation115=Designator=R246|UniqueId=\RTXBABPE\ZABDJWLM|Kind=1|AlternatePart= 
-Variation116=Designator=C40|UniqueId=\TAKSADSN\AHHLDRVF|Kind=1|AlternatePart= 
-Variation117=Designator=IC14|UniqueId=\TAKSADSN\UOPZLEPT|Kind=1|AlternatePart= 
-Variation118=Designator=C43|UniqueId=\TAKSADSN\HNSIOOFW|Kind=1|AlternatePart= 
-Variation119=Designator=C42|UniqueId=\TAKSADSN\JUKKLXGO|Kind=1|AlternatePart= 
-Variation120=Designator=R126|UniqueId=\NULHDFKJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0805_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC2012X60N|AltLibLink_IsSameFootprint=True
+Variation37=Designator=J6|UniqueId=\RTXBABPE\LIDFICHD|Kind=1|AlternatePart= 
+Variation38=Designator=J7|UniqueId=\RTXBABPE\HQYQOTEN|Kind=1|AlternatePart= 
+Variation39=Designator=R133|UniqueId=\RTXBABPE\UVGBZHRB|Kind=1|AlternatePart= 
+Variation40=Designator=R135|UniqueId=\RTXBABPE\TDLAKUCP|Kind=1|AlternatePart= 
+Variation41=Designator=R138|UniqueId=\RTXBABPE\TFVFGQYW|Kind=1|AlternatePart= 
+Variation42=Designator=D5|UniqueId=\RTXBABPE\SSAIDNIQ|Kind=1|AlternatePart= 
+Variation43=Designator=D6|UniqueId=\RTXBABPE\OKUTGPIB|Kind=1|AlternatePart= 
+Variation44=Designator=D7|UniqueId=\RTXBABPE\YMIPYWMH|Kind=1|AlternatePart= 
+Variation45=Designator=R130|UniqueId=\RTXBABPE\GJFTARJQ|Kind=1|AlternatePart= 
+Variation46=Designator=R132|UniqueId=\RTXBABPE\KZPWKCYA|Kind=1|AlternatePart= 
+Variation47=Designator=R131|UniqueId=\RTXBABPE\WYZXRGTB|Kind=1|AlternatePart= 
+Variation48=Designator=R134|UniqueId=\RTXBABPE\VBZDRNFF|Kind=1|AlternatePart= 
+Variation49=Designator=R136|UniqueId=\RTXBABPE\FDWNKILN|Kind=1|AlternatePart= 
+Variation50=Designator=R137|UniqueId=\RTXBABPE\IKHZUHOD|Kind=1|AlternatePart= 
+Variation51=Designator=R139|UniqueId=\RTXBABPE\LVDYHNVL|Kind=1|AlternatePart= 
+Variation52=Designator=R140|UniqueId=\RTXBABPE\XRKNLBVE|Kind=1|AlternatePart= 
+Variation53=Designator=R127|UniqueId=\RTXBABPE\LWKOEMVT|Kind=1|AlternatePart= 
+Variation54=Designator=R128|UniqueId=\RTXBABPE\OGIJIKPG|Kind=1|AlternatePart= 
+Variation55=Designator=R141|UniqueId=\RTXBABPE\KCNKNBIE|Kind=1|AlternatePart= 
+Variation56=Designator=R142|UniqueId=\RTXBABPE\ASOQJQNE|Kind=1|AlternatePart= 
+Variation57=Designator=C1|UniqueId=\JBOQDPNK\UOYEGMJH|Kind=1|AlternatePart= 
+Variation58=Designator=C2|UniqueId=\JBOQDPNK\UCHXOPML|Kind=1|AlternatePart= 
+Variation59=Designator=IC3|UniqueId=\JBOQDPNK\PXSJKTHS|Kind=1|AlternatePart= 
+Variation60=Designator=C9|UniqueId=\JBOQDPNK\UMCSKEKN|Kind=1|AlternatePart= 
+Variation61=Designator=C14|UniqueId=\JBOQDPNK\ORDYQWQY|Kind=1|AlternatePart= 
+Variation62=Designator=C17|UniqueId=\JBOQDPNK\WDIQDYTQ|Kind=1|AlternatePart= 
+Variation63=Designator=C30|UniqueId=\JBOQDPNK\BTHBHKRJ|Kind=1|AlternatePart= 
+Variation64=Designator=C29|UniqueId=\JBOQDPNK\WSFENJFR|Kind=1|AlternatePart= 
+Variation65=Designator=R22|UniqueId=\JBOQDPNK\OANMMAOT|Kind=1|AlternatePart= 
+Variation66=Designator=R2|UniqueId=\JBOQDPNK\UIJGILKO|Kind=1|AlternatePart= 
+Variation67=Designator=R4|UniqueId=\JBOQDPNK\MPNEPUBV|Kind=1|AlternatePart= 
+Variation68=Designator=R10|UniqueId=\JBOQDPNK\GWHOFHRC|Kind=1|AlternatePart= 
+Variation69=Designator=R115|UniqueId=\VGRJJZGJ\OIKHLSCP|Kind=1|AlternatePart= 
+Variation70=Designator=R114|UniqueId=\VGRJJZGJ\QOHDDBRF|Kind=1|AlternatePart= 
+Variation71=Designator=R94|UniqueId=\VGRJJZGJ\KHTOCGYL|Kind=1|AlternatePart= 
+Variation72=Designator=C213|UniqueId=\ANNHCMBV\KLGYBYXT|Kind=1|AlternatePart= 
+Variation73=Designator=C214|UniqueId=\ANNHCMBV\MKKQVIGF|Kind=1|AlternatePart= 
+Variation74=Designator=C217|UniqueId=\ANNHCMBV\FXCONXVT|Kind=1|AlternatePart= 
+Variation75=Designator=C218|UniqueId=\ANNHCMBV\DWWYGFUM|Kind=1|AlternatePart= 
+Variation76=Designator=IC5|UniqueId=\JRHWWSLK\PJQAMNKS|Kind=1|AlternatePart= 
+Variation77=Designator=IC6|UniqueId=\JRHWWSLK\HQOSEQKE|Kind=1|AlternatePart= 
+Variation78=Designator=IC7|UniqueId=\JRHWWSLK\HORKDUKL|Kind=1|AlternatePart= 
+Variation79=Designator=C46|UniqueId=\JRHWWSLK\XXPLOBVG|Kind=1|AlternatePart= 
+Variation80=Designator=C47|UniqueId=\JRHWWSLK\IFVDRYAD|Kind=1|AlternatePart= 
+Variation81=Designator=C48|UniqueId=\JRHWWSLK\BVQDRYQX|Kind=1|AlternatePart= 
+Variation82=Designator=C49|UniqueId=\JRHWWSLK\OXRDDNOR|Kind=1|AlternatePart= 
+Variation83=Designator=C50|UniqueId=\JRHWWSLK\RYGJXFOU|Kind=1|AlternatePart= 
+Variation84=Designator=C51|UniqueId=\JRHWWSLK\BPCBXWVF|Kind=1|AlternatePart= 
+Variation85=Designator=IC13|UniqueId=\EATHWGPN\AUFFIUSI|Kind=1|AlternatePart= 
+Variation86=Designator=C94|UniqueId=\EATHWGPN\MLJVHUSD|Kind=1|AlternatePart= 
+Variation87=Designator=R73|UniqueId=\EATHWGPN\QGGLKVGS|Kind=1|AlternatePart= 
+Variation88=Designator=R74|UniqueId=\EATHWGPN\QGIFKJNY|Kind=1|AlternatePart= 
+Variation89=Designator=R75|UniqueId=\EATHWGPN\TLFPNFRQ|Kind=1|AlternatePart= 
+Variation90=Designator=C95|UniqueId=\EATHWGPN\ITYIMUCQ|Kind=1|AlternatePart= 
+Variation91=Designator=C96|UniqueId=\EATHWGPN\UOYCESGI|Kind=1|AlternatePart= 
+Variation92=Designator=L29|UniqueId=\EATHWGPN\LAFPXLQR|Kind=1|AlternatePart= 
+Variation93=Designator=C201|UniqueId=\EATHWGPN\WGJBLHHC|Kind=1|AlternatePart= 
+Variation94=Designator=IC35|UniqueId=\EATHWGPN\JEVAYPNA|Kind=1|AlternatePart= 
+Variation95=Designator=C202|UniqueId=\EATHWGPN\JUAYOQWK|Kind=1|AlternatePart= 
+Variation96=Designator=C286|UniqueId=\EATHWGPN\GQTIMHHP|Kind=1|AlternatePart= 
+Variation97=Designator=R38|UniqueId=\IDVNPMOJ\PQGUABLU|Kind=1|AlternatePart= 
+Variation98=Designator=R39|UniqueId=\IDVNPMOJ\TTRWSQTV|Kind=1|AlternatePart= 
+Variation99=Designator=R40|UniqueId=\IDVNPMOJ\HSOMLDTW|Kind=1|AlternatePart= 
+Variation100=Designator=R41|UniqueId=\IDVNPMOJ\DWVKEMLK|Kind=1|AlternatePart= 
+Variation101=Designator=J10|UniqueId=\TAKSADSN\ICIHXVKV|Kind=1|AlternatePart= 
+Variation102=Designator=T17|UniqueId=\CXDKFJFY\NXOGWTRT|Kind=1|AlternatePart= 
+Variation103=Designator=R253|UniqueId=\CXDKFJFY\PKSVGHPV|Kind=1|AlternatePart= 
+Variation104=Designator=R251|UniqueId=\CXDKFJFY\KQARVNDR|Kind=1|AlternatePart= 
+Variation105=Designator=R257|UniqueId=\HFXIRERH\TZTVHGRT|Kind=1|AlternatePart= 
+Variation106=Designator=R260|UniqueId=\HFXIRERH\AXYLQSZO|Kind=1|AlternatePart= 
+Variation107=Designator=R262|UniqueId=\HFXIRERH\YHUVLHMV|Kind=1|AlternatePart= 
+Variation108=Designator=R261|UniqueId=\HFXIRERH\XQCAEUOP|Kind=1|AlternatePart= 
+Variation109=Designator=R245|UniqueId=\RTXBABPE\TSIXEXUK|Kind=1|AlternatePart= 
+Variation110=Designator=R246|UniqueId=\RTXBABPE\ZABDJWLM|Kind=1|AlternatePart= 
+Variation111=Designator=R126|UniqueId=\NULHDFKJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0805_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC2012X60N|AltLibLink_IsSameFootprint=True
 ParamVariation8=ParameterName=Comment|VariantValue==Value
 ParamDesignator8=R126
 ParamVariation9=ParameterName=Case|VariantValue=0805
@@ -690,42 +667,45 @@ ParamVariation37=ParameterName=Status|VariantValue=Preferred
 ParamDesignator37=R126
 ParamVariation38=ParameterName=Value|VariantValue=0
 ParamDesignator38=R126
-Variation121=Designator=R117|UniqueId=\JBOQDPNK\QSFJUXXB|Kind=1|AlternatePart= 
-Variation122=Designator=C192|UniqueId=\JBOQDPNK\FCMOVXMO|Kind=1|AlternatePart= 
-Variation123=Designator=R263|UniqueId=\IDVNPMOJ\MAFOSXDY|Kind=1|AlternatePart= 
-Variation124=Designator=R266|UniqueId=\IDVNPMOJ\UBCUAZPZ|Kind=1|AlternatePart= 
-Variation125=Designator=R265|UniqueId=\IDVNPMOJ\YYBBIJJT|Kind=1|AlternatePart= 
-Variation126=Designator=IC37|UniqueId=\IDVNPMOJ\ZYRNMMNB|Kind=1|AlternatePart= 
-Variation127=Designator=C111|UniqueId=\IDVNPMOJ\LFBPVMMU|Kind=1|AlternatePart= 
-Variation128=Designator=R264|UniqueId=\IDVNPMOJ\WMSXEOMG|Kind=1|AlternatePart= 
-Variation129=Designator=C114|UniqueId=\IDVNPMOJ\DGKILGHJ|Kind=1|AlternatePart= 
-Variation130=Designator=R270|UniqueId=\IDVNPMOJ\NQTLTVOS|Kind=1|AlternatePart= 
-Variation131=Designator=R271|UniqueId=\IDVNPMOJ\YLCJTHRW|Kind=1|AlternatePart= 
-Variation132=Designator=R129|UniqueId=\IDVNPMOJ\GYOSOIAW|Kind=1|AlternatePart= 
-Variation133=Designator=C44|UniqueId=\EATHWGPN\FUNPGVLQ|Kind=1|AlternatePart= 
-Variation134=Designator=R144|UniqueId=\HFXIRERH\RZUPVVWH|Kind=1|AlternatePart= 
-Variation135=Designator=R143|UniqueId=\HFXIRERH\HDZLKLJA|Kind=1|AlternatePart= 
-Variation136=Designator=D9|UniqueId=\RTXBABPE\RJFNPAAG|Kind=1|AlternatePart= 
-Variation137=Designator=IC38|UniqueId=\RTXBABPE\WZSSQUUJ|Kind=1|AlternatePart= 
-Variation138=Designator=R279|UniqueId=\RTXBABPE\PHPVAGRC|Kind=1|AlternatePart= 
-Variation139=Designator=R280|UniqueId=\RTXBABPE\THLYUDPJ|Kind=1|AlternatePart= 
-Variation140=Designator=R281|UniqueId=\RTXBABPE\GCILIDGV|Kind=1|AlternatePart= 
-Variation141=Designator=R282|UniqueId=\RTXBABPE\JMSJYPZR|Kind=1|AlternatePart= 
-Variation142=Designator=R277|UniqueId=\RTXBABPE\NYTITCVH|Kind=1|AlternatePart= 
-Variation143=Designator=C154|UniqueId=\RTXBABPE\NSPGIOVH|Kind=1|AlternatePart= 
-Variation144=Designator=R283|UniqueId=\RTXBABPE\SKTPQPEJ|Kind=1|AlternatePart= 
-Variation145=Designator=R199|UniqueId=\RTXBABPE\NMMUNEYK|Kind=1|AlternatePart= 
-Variation146=Designator=R197|UniqueId=\RTXBABPE\LAOQVHDP|Kind=1|AlternatePart= 
-Variation147=Designator=R274|UniqueId=\RTXBABPE\VDQYMHKC|Kind=1|AlternatePart= 
-Variation148=Designator=C166|UniqueId=\RTXBABPE\MNHNITRP|Kind=1|AlternatePart= 
-Variation149=Designator=C155|UniqueId=\RTXBABPE\ZINUIQHI|Kind=1|AlternatePart= 
-Variation150=Designator=IC39|UniqueId=\RTXBABPE\QNOCTBSI|Kind=1|AlternatePart= 
-Variation151=Designator=C165|UniqueId=\RTXBABPE\BJIOPAIQ|Kind=1|AlternatePart= 
-Variation152=Designator=R275|UniqueId=\RTXBABPE\BTGEQMCH|Kind=1|AlternatePart= 
-Variation153=Designator=T15|UniqueId=\RTXBABPE\EYLHVYUT|Kind=1|AlternatePart= 
-Variation154=Designator=C167|UniqueId=\RTXBABPE\HRGKFLKB|Kind=1|AlternatePart= 
-Variation155=Designator=R276|UniqueId=\RTXBABPE\KDQNMCNY|Kind=1|AlternatePart= 
-Variation156=Designator=R278|UniqueId=\TAKSADSN\KYGMMGRO|Kind=1|AlternatePart= 
+Variation112=Designator=R117|UniqueId=\JBOQDPNK\QSFJUXXB|Kind=1|AlternatePart= 
+Variation113=Designator=C192|UniqueId=\JBOQDPNK\FCMOVXMO|Kind=1|AlternatePart= 
+Variation114=Designator=R263|UniqueId=\IDVNPMOJ\MAFOSXDY|Kind=1|AlternatePart= 
+Variation115=Designator=R266|UniqueId=\IDVNPMOJ\UBCUAZPZ|Kind=1|AlternatePart= 
+Variation116=Designator=R265|UniqueId=\IDVNPMOJ\YYBBIJJT|Kind=1|AlternatePart= 
+Variation117=Designator=IC37|UniqueId=\IDVNPMOJ\ZYRNMMNB|Kind=1|AlternatePart= 
+Variation118=Designator=C111|UniqueId=\IDVNPMOJ\LFBPVMMU|Kind=1|AlternatePart= 
+Variation119=Designator=R264|UniqueId=\IDVNPMOJ\WMSXEOMG|Kind=1|AlternatePart= 
+Variation120=Designator=C114|UniqueId=\IDVNPMOJ\DGKILGHJ|Kind=1|AlternatePart= 
+Variation121=Designator=R270|UniqueId=\IDVNPMOJ\NQTLTVOS|Kind=1|AlternatePart= 
+Variation122=Designator=R271|UniqueId=\IDVNPMOJ\YLCJTHRW|Kind=1|AlternatePart= 
+Variation123=Designator=R129|UniqueId=\IDVNPMOJ\GYOSOIAW|Kind=1|AlternatePart= 
+Variation124=Designator=C44|UniqueId=\EATHWGPN\SCSFISXW|Kind=1|AlternatePart= 
+Variation125=Designator=R144|UniqueId=\HFXIRERH\RZUPVVWH|Kind=1|AlternatePart= 
+Variation126=Designator=R143|UniqueId=\HFXIRERH\HDZLKLJA|Kind=1|AlternatePart= 
+Variation127=Designator=D9|UniqueId=\RTXBABPE\RJFNPAAG|Kind=1|AlternatePart= 
+Variation128=Designator=IC38|UniqueId=\RTXBABPE\WZSSQUUJ|Kind=1|AlternatePart= 
+Variation129=Designator=R279|UniqueId=\RTXBABPE\PHPVAGRC|Kind=1|AlternatePart= 
+Variation130=Designator=R280|UniqueId=\RTXBABPE\THLYUDPJ|Kind=1|AlternatePart= 
+Variation131=Designator=R281|UniqueId=\RTXBABPE\GCILIDGV|Kind=1|AlternatePart= 
+Variation132=Designator=R282|UniqueId=\RTXBABPE\JMSJYPZR|Kind=1|AlternatePart= 
+Variation133=Designator=R277|UniqueId=\RTXBABPE\NYTITCVH|Kind=1|AlternatePart= 
+Variation134=Designator=C154|UniqueId=\RTXBABPE\NSPGIOVH|Kind=1|AlternatePart= 
+Variation135=Designator=R283|UniqueId=\RTXBABPE\SKTPQPEJ|Kind=1|AlternatePart= 
+Variation136=Designator=R199|UniqueId=\RTXBABPE\NMMUNEYK|Kind=1|AlternatePart= 
+Variation137=Designator=R197|UniqueId=\RTXBABPE\LAOQVHDP|Kind=1|AlternatePart= 
+Variation138=Designator=R274|UniqueId=\RTXBABPE\HMJQBJEL|Kind=1|AlternatePart= 
+Variation139=Designator=C166|UniqueId=\RTXBABPE\MNHNITRP|Kind=1|AlternatePart= 
+Variation140=Designator=C155|UniqueId=\RTXBABPE\ZINUIQHI|Kind=1|AlternatePart= 
+Variation141=Designator=IC39|UniqueId=\RTXBABPE\QNOCTBSI|Kind=1|AlternatePart= 
+Variation142=Designator=C165|UniqueId=\RTXBABPE\BJIOPAIQ|Kind=1|AlternatePart= 
+Variation143=Designator=R275|UniqueId=\RTXBABPE\XBJVQRJP|Kind=1|AlternatePart= 
+Variation144=Designator=T15|UniqueId=\RTXBABPE\EYLHVYUT|Kind=1|AlternatePart= 
+Variation145=Designator=C167|UniqueId=\RTXBABPE\HRGKFLKB|Kind=1|AlternatePart= 
+Variation146=Designator=R276|UniqueId=\RTXBABPE\KDQNMCNY|Kind=1|AlternatePart= 
+Variation147=Designator=C16|UniqueId=\JBOQDPNK\APAFPCEP|Kind=1|AlternatePart= 
+Variation148=Designator=C305|UniqueId=\EATHWGPN\MJBTALJI|Kind=1|AlternatePart= 
+Variation149=Designator=R3|UniqueId=\HFXIRERH\FGDODYED|Kind=1|AlternatePart= 
+Variation150=Designator=R77|UniqueId=\HFXIRERH\WNWNQHOA|Kind=1|AlternatePart= 
 ParamVariationCount=38
 
 [ProjectVariant2]
@@ -733,7 +713,7 @@ UniqueID=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
 Description=DIOT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=66
+VariationCount=68
 Variation1=Designator=R156|UniqueId=\HFXIRERH\HJFKCOUH|Kind=0|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R156
@@ -756,64 +736,66 @@ Variation7=Designator=R18|UniqueId=\JBOQDPNK\HARVSHPE|Kind=1|AlternatePart==Valu
 ParamVariation7=ParameterName=Comment|VariantValue==Value
 ParamDesignator7=R18
 Variation8=Designator=R36|UniqueId=\IDVNPMOJ\HCDTCJOT|Kind=1|AlternatePart= 
-Variation9=Designator=R144|UniqueId=\HFXIRERH\RZUPVVWH|Kind=0|AlternatePart= 
-Variation10=Designator=C1|UniqueId=\JBOQDPNK\UOYEGMJH|Kind=1|AlternatePart= 
-Variation11=Designator=C2|UniqueId=\JBOQDPNK\UCHXOPML|Kind=1|AlternatePart= 
-Variation12=Designator=IC3|UniqueId=\JBOQDPNK\PXSJKTHS|Kind=1|AlternatePart= 
-Variation13=Designator=C9|UniqueId=\JBOQDPNK\UMCSKEKN|Kind=1|AlternatePart= 
-Variation14=Designator=C14|UniqueId=\JBOQDPNK\ORDYQWQY|Kind=1|AlternatePart= 
-Variation15=Designator=C17|UniqueId=\JBOQDPNK\WDIQDYTQ|Kind=1|AlternatePart= 
-Variation16=Designator=C30|UniqueId=\JBOQDPNK\BTHBHKRJ|Kind=1|AlternatePart= 
-Variation17=Designator=C29|UniqueId=\JBOQDPNK\WSFENJFR|Kind=1|AlternatePart= 
-Variation18=Designator=R22|UniqueId=\JBOQDPNK\OANMMAOT|Kind=1|AlternatePart= 
-Variation19=Designator=R2|UniqueId=\JBOQDPNK\UIJGILKO|Kind=1|AlternatePart= 
-Variation20=Designator=R4|UniqueId=\JBOQDPNK\MPNEPUBV|Kind=1|AlternatePart= 
-Variation21=Designator=R10|UniqueId=\JBOQDPNK\GWHOFHRC|Kind=1|AlternatePart= 
-Variation22=Designator=R94|UniqueId=\VGRJJZGJ\KHTOCGYL|Kind=1|AlternatePart= 
-Variation23=Designator=C213|UniqueId=\ANNHCMBV\KLGYBYXT|Kind=1|AlternatePart= 
-Variation24=Designator=C214|UniqueId=\ANNHCMBV\MKKQVIGF|Kind=1|AlternatePart= 
-Variation25=Designator=C217|UniqueId=\ANNHCMBV\FXCONXVT|Kind=1|AlternatePart= 
-Variation26=Designator=C218|UniqueId=\ANNHCMBV\DWWYGFUM|Kind=1|AlternatePart= 
-Variation27=Designator=IC13|UniqueId=\EATHWGPN\MGLRDHFG|Kind=1|AlternatePart= 
-Variation28=Designator=C94|UniqueId=\EATHWGPN\SWGDCRXD|Kind=1|AlternatePart= 
-Variation29=Designator=R73|UniqueId=\EATHWGPN\QLPWJACR|Kind=1|AlternatePart= 
-Variation30=Designator=R74|UniqueId=\EATHWGPN\PRTPVXHD|Kind=1|AlternatePart= 
-Variation31=Designator=R75|UniqueId=\EATHWGPN\FPWSCVXA|Kind=1|AlternatePart= 
-Variation32=Designator=C95|UniqueId=\EATHWGPN\YGBYFXOP|Kind=1|AlternatePart= 
-Variation33=Designator=C96|UniqueId=\EATHWGPN\WTLRIUSJ|Kind=1|AlternatePart= 
-Variation34=Designator=L29|UniqueId=\EATHWGPN\LAFPXLQR|Kind=1|AlternatePart= 
-Variation35=Designator=C201|UniqueId=\EATHWGPN\WGJBLHHC|Kind=1|AlternatePart= 
-Variation36=Designator=IC35|UniqueId=\EATHWGPN\JEVAYPNA|Kind=1|AlternatePart= 
-Variation37=Designator=C202|UniqueId=\EATHWGPN\JUAYOQWK|Kind=1|AlternatePart= 
-Variation38=Designator=C286|UniqueId=\EATHWGPN\GQTIMHHP|Kind=1|AlternatePart= 
-Variation39=Designator=J10|UniqueId=\TAKSADSN\ICIHXVKV|Kind=1|AlternatePart= 
-Variation40=Designator=R77|UniqueId=\JBOQDPNK\VOCOIYXG|Kind=1|AlternatePart= 
-Variation41=Designator=R117|UniqueId=\JBOQDPNK\QSFJUXXB|Kind=1|AlternatePart= 
-Variation42=Designator=C192|UniqueId=\JBOQDPNK\FCMOVXMO|Kind=1|AlternatePart= 
-Variation43=Designator=R263|UniqueId=\IDVNPMOJ\MAFOSXDY|Kind=1|AlternatePart= 
-Variation44=Designator=R266|UniqueId=\IDVNPMOJ\UBCUAZPZ|Kind=1|AlternatePart= 
-Variation45=Designator=R265|UniqueId=\IDVNPMOJ\YYBBIJJT|Kind=1|AlternatePart= 
-Variation46=Designator=IC37|UniqueId=\IDVNPMOJ\ZYRNMMNB|Kind=1|AlternatePart= 
-Variation47=Designator=C111|UniqueId=\IDVNPMOJ\LFBPVMMU|Kind=1|AlternatePart= 
-Variation48=Designator=R264|UniqueId=\IDVNPMOJ\WMSXEOMG|Kind=1|AlternatePart= 
-Variation49=Designator=C114|UniqueId=\IDVNPMOJ\DGKILGHJ|Kind=1|AlternatePart= 
-Variation50=Designator=R270|UniqueId=\IDVNPMOJ\NQTLTVOS|Kind=1|AlternatePart= 
-Variation51=Designator=R272|UniqueId=\IDVNPMOJ\HXAHXUMI|Kind=1|AlternatePart= 
-Variation52=Designator=R273|UniqueId=\IDVNPMOJ\IKPPBETA|Kind=1|AlternatePart= 
-Variation53=Designator=R252|UniqueId=\CXDKFJFY\XHBOWRIV|Kind=1|AlternatePart= 
-Variation54=Designator=C44|UniqueId=\EATHWGPN\FUNPGVLQ|Kind=1|AlternatePart= 
-Variation55=Designator=R105|UniqueId=\VGRJJZGJ\NXOSALTW|Kind=1|AlternatePart= 
-Variation56=Designator=R109|UniqueId=\VGRJJZGJ\YBWUBEHS|Kind=1|AlternatePart= 
-Variation57=Designator=J8|UniqueId=\HFXIRERH\AVKLCJER|Kind=1|AlternatePart= 
-Variation58=Designator=J9|UniqueId=\HFXIRERH\EJIEBMBV|Kind=1|AlternatePart= 
-Variation59=Designator=IC26|UniqueId=\HFXIRERH\FDGWJAFK|Kind=1|AlternatePart= 
-Variation60=Designator=D8|UniqueId=\HFXIRERH\USWKUBAB|Kind=1|AlternatePart= 
-Variation61=Designator=C220|UniqueId=\HFXIRERH\NDFIXKIP|Kind=1|AlternatePart= 
-Variation62=Designator=J11|UniqueId=\TAKSADSN\RPERGPYF|Kind=1|AlternatePart= 
-Variation63=Designator=C264|UniqueId=\TAKSADSN\RONBTLEA|Kind=1|AlternatePart= 
-Variation64=Designator=FL1|UniqueId=\TAKSADSN\MWAXHPGD|Kind=1|AlternatePart= 
-Variation65=Designator=C262|UniqueId=\TAKSADSN\OMMAVJMC|Kind=1|AlternatePart= 
-Variation66=Designator=C263|UniqueId=\TAKSADSN\QHVMVQFF|Kind=1|AlternatePart= 
+Variation9=Designator=C1|UniqueId=\JBOQDPNK\UOYEGMJH|Kind=1|AlternatePart= 
+Variation10=Designator=C2|UniqueId=\JBOQDPNK\UCHXOPML|Kind=1|AlternatePart= 
+Variation11=Designator=IC3|UniqueId=\JBOQDPNK\PXSJKTHS|Kind=1|AlternatePart= 
+Variation12=Designator=C9|UniqueId=\JBOQDPNK\UMCSKEKN|Kind=1|AlternatePart= 
+Variation13=Designator=C14|UniqueId=\JBOQDPNK\ORDYQWQY|Kind=1|AlternatePart= 
+Variation14=Designator=C17|UniqueId=\JBOQDPNK\WDIQDYTQ|Kind=1|AlternatePart= 
+Variation15=Designator=C30|UniqueId=\JBOQDPNK\BTHBHKRJ|Kind=1|AlternatePart= 
+Variation16=Designator=C29|UniqueId=\JBOQDPNK\WSFENJFR|Kind=1|AlternatePart= 
+Variation17=Designator=R22|UniqueId=\JBOQDPNK\OANMMAOT|Kind=1|AlternatePart= 
+Variation18=Designator=R2|UniqueId=\JBOQDPNK\UIJGILKO|Kind=1|AlternatePart= 
+Variation19=Designator=R4|UniqueId=\JBOQDPNK\MPNEPUBV|Kind=1|AlternatePart= 
+Variation20=Designator=R10|UniqueId=\JBOQDPNK\GWHOFHRC|Kind=1|AlternatePart= 
+Variation21=Designator=R94|UniqueId=\VGRJJZGJ\KHTOCGYL|Kind=1|AlternatePart= 
+Variation22=Designator=C213|UniqueId=\ANNHCMBV\KLGYBYXT|Kind=1|AlternatePart= 
+Variation23=Designator=C214|UniqueId=\ANNHCMBV\MKKQVIGF|Kind=1|AlternatePart= 
+Variation24=Designator=C217|UniqueId=\ANNHCMBV\FXCONXVT|Kind=1|AlternatePart= 
+Variation25=Designator=C218|UniqueId=\ANNHCMBV\DWWYGFUM|Kind=1|AlternatePart= 
+Variation26=Designator=IC13|UniqueId=\EATHWGPN\AUFFIUSI|Kind=1|AlternatePart= 
+Variation27=Designator=C94|UniqueId=\EATHWGPN\MLJVHUSD|Kind=1|AlternatePart= 
+Variation28=Designator=R73|UniqueId=\EATHWGPN\QGGLKVGS|Kind=1|AlternatePart= 
+Variation29=Designator=R74|UniqueId=\EATHWGPN\QGIFKJNY|Kind=1|AlternatePart= 
+Variation30=Designator=R75|UniqueId=\EATHWGPN\TLFPNFRQ|Kind=1|AlternatePart= 
+Variation31=Designator=C95|UniqueId=\EATHWGPN\ITYIMUCQ|Kind=1|AlternatePart= 
+Variation32=Designator=C96|UniqueId=\EATHWGPN\UOYCESGI|Kind=1|AlternatePart= 
+Variation33=Designator=L29|UniqueId=\EATHWGPN\LAFPXLQR|Kind=1|AlternatePart= 
+Variation34=Designator=C201|UniqueId=\EATHWGPN\WGJBLHHC|Kind=1|AlternatePart= 
+Variation35=Designator=IC35|UniqueId=\EATHWGPN\JEVAYPNA|Kind=1|AlternatePart= 
+Variation36=Designator=C202|UniqueId=\EATHWGPN\JUAYOQWK|Kind=1|AlternatePart= 
+Variation37=Designator=C286|UniqueId=\EATHWGPN\GQTIMHHP|Kind=1|AlternatePart= 
+Variation38=Designator=J10|UniqueId=\TAKSADSN\ICIHXVKV|Kind=1|AlternatePart= 
+Variation39=Designator=R117|UniqueId=\JBOQDPNK\QSFJUXXB|Kind=1|AlternatePart= 
+Variation40=Designator=C192|UniqueId=\JBOQDPNK\FCMOVXMO|Kind=1|AlternatePart= 
+Variation41=Designator=R263|UniqueId=\IDVNPMOJ\MAFOSXDY|Kind=1|AlternatePart= 
+Variation42=Designator=R266|UniqueId=\IDVNPMOJ\UBCUAZPZ|Kind=1|AlternatePart= 
+Variation43=Designator=R265|UniqueId=\IDVNPMOJ\YYBBIJJT|Kind=1|AlternatePart= 
+Variation44=Designator=IC37|UniqueId=\IDVNPMOJ\ZYRNMMNB|Kind=1|AlternatePart= 
+Variation45=Designator=C111|UniqueId=\IDVNPMOJ\LFBPVMMU|Kind=1|AlternatePart= 
+Variation46=Designator=R264|UniqueId=\IDVNPMOJ\WMSXEOMG|Kind=1|AlternatePart= 
+Variation47=Designator=C114|UniqueId=\IDVNPMOJ\DGKILGHJ|Kind=1|AlternatePart= 
+Variation48=Designator=R270|UniqueId=\IDVNPMOJ\NQTLTVOS|Kind=1|AlternatePart= 
+Variation49=Designator=R272|UniqueId=\IDVNPMOJ\HXAHXUMI|Kind=1|AlternatePart= 
+Variation50=Designator=R273|UniqueId=\IDVNPMOJ\IKPPBETA|Kind=1|AlternatePart= 
+Variation51=Designator=R252|UniqueId=\CXDKFJFY\XHBOWRIV|Kind=1|AlternatePart= 
+Variation52=Designator=C44|UniqueId=\EATHWGPN\SCSFISXW|Kind=1|AlternatePart= 
+Variation53=Designator=R105|UniqueId=\VGRJJZGJ\NXOSALTW|Kind=1|AlternatePart= 
+Variation54=Designator=R109|UniqueId=\VGRJJZGJ\YBWUBEHS|Kind=1|AlternatePart= 
+Variation55=Designator=J8|UniqueId=\HFXIRERH\AVKLCJER|Kind=1|AlternatePart= 
+Variation56=Designator=J9|UniqueId=\HFXIRERH\EJIEBMBV|Kind=1|AlternatePart= 
+Variation57=Designator=IC26|UniqueId=\HFXIRERH\FDGWJAFK|Kind=1|AlternatePart= 
+Variation58=Designator=D8|UniqueId=\HFXIRERH\USWKUBAB|Kind=1|AlternatePart= 
+Variation59=Designator=C220|UniqueId=\HFXIRERH\NDFIXKIP|Kind=1|AlternatePart= 
+Variation60=Designator=J11|UniqueId=\TAKSADSN\RPERGPYF|Kind=1|AlternatePart= 
+Variation61=Designator=C264|UniqueId=\TAKSADSN\RONBTLEA|Kind=1|AlternatePart= 
+Variation62=Designator=FL1|UniqueId=\TAKSADSN\MWAXHPGD|Kind=1|AlternatePart= 
+Variation63=Designator=C262|UniqueId=\TAKSADSN\OMMAVJMC|Kind=1|AlternatePart= 
+Variation64=Designator=C263|UniqueId=\TAKSADSN\QHVMVQFF|Kind=1|AlternatePart= 
+Variation65=Designator=C16|UniqueId=\JBOQDPNK\APAFPCEP|Kind=1|AlternatePart= 
+Variation66=Designator=C305|UniqueId=\EATHWGPN\MJBTALJI|Kind=1|AlternatePart= 
+Variation67=Designator=IC43|UniqueId=\HFXIRERH\WWRKUDSI|Kind=1|AlternatePart= 
+Variation68=Designator=C307|UniqueId=\HFXIRERH\XLTRLVXN|Kind=1|AlternatePart= 
 ParamVariationCount=7
 
 [Parameter1]
@@ -849,24 +831,28 @@ Name=DrawnBy
 Value=Paweł Kulik
 
 [Parameter9]
+Name=P_version
+Value=1.1
+
+[Parameter10]
 Name=Project1
 Value=EEM FMC Carrier
 
-[Parameter10]
+[Parameter11]
 Name=Projet
 Value=ARTIQ/Sinara
 
-[Parameter11]
+[Parameter12]
 Name=SheetTotal
 Value=12
 
-[Parameter12]
+[Parameter13]
 Name=Title
 Value=EEM FMC Carrier
 
-[Parameter13]
+[Parameter14]
 Name=Version
-Value=1.0
+Value=1.1
 
 [Configuration1]
 Name=Sources
@@ -878,15 +864,15 @@ OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
-[Generic_EDE]
-OutputDir=Project Outputs for Phaser
-
 [Generic_SimulationProfiles]
 ActiveProfile=HWBJQMJH
 ProfileId0=HWBJQMJH
 ProfileName0=Mixed Sim Configuration
 OutputType0=AdvSimNetlist
 ConfigParameters0=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analysis=True|TF_Analysis=False|PZ_Analysis=False|Noise_Analysis=False|TRAN_FourierAnalysis=False|TempSweep_Analysis=False|ParamSweep_Analysis=False|MonteCarlo_Analysis=False|TF_Enabled=False|TF_Source=|TF_Reference=0|PZ_Enabled=False|PZ_Node1=|PZ_Node2=0|PZ_Node3=|PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|AnalysesDataSavedIndex=4|DC_PrimarySource=Temp|DC_PrimaryStart=1n|DC_PrimaryStop=1u|DC_PrimaryStep=100n|DC_EnableSecondary=False|DC_SecondarySource=|DC_SecondaryStart=|DC_SecondaryStop=|DC_SecondaryStep=|Noise_Enabled=False|Noise_Source=|Noise_Output=|Noise_Reference=0|Noise_Start_UserValue=|Noise_Start=1K|Noise_Stop_UserValue=|Noise_Stop=1G|Noise_TestPoints_UserValue=|Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|AC_StartFrequency_UserValue=|AC_StartFrequency=1K|AC_StopFrequency_UserValue=|AC_StopFrequency=1G|AC_TestPoints_UserValue=|AC_TestPoints=10|AC_SweepType=DEC|TRAN_StartTime_UserValue=|TRAN_StartTime=0|TRAN_StopTime_UserValue=100m|TRAN_StopTime=100m|TRAN_StepTime_UserValue=50u|TRAN_StepTime=50u|TRAN_MaxStepTime_UserValue=50u|TRAN_MaxStepTime=50u|TRAN_AlwaysSetDefaults=False|TRAN_DefaultCycles_UserValue=|TRAN_DefaultCycles=5|TRAN_DefaultPointsPerCycle_UserValue=|TRAN_DefaultPointsPerCycle=25|TRAN_UseInitialConditions=True|TRAN_FourierEnabled=False|TRAN_FourierFundFreq_UserValue=|TRAN_FourierFundFreq=10.00|TRAN_FourierNumHarmonics_UserValue=|TRAN_FourierNumHarmonics=10|TempSweep_Start_UserValue=|TempSweep_Start=-10|TempSweep_Stop_UserValue=|TempSweep_Stop=60|TempSweep_Step_UserValue=|TempSweep_Step=10|ParamSweep_Parameter1=IC38A|ParamSweep_Type1=LIN|ParamSweep_Start1=1n|ParamSweep_Stop1=1u|ParamSweep_Step1=100n|ParamSweep_SweepType1=False|ParamSweep_SecondaryEnabled=False|ParamSweep_Parameter2=|ParamSweep_Type2=LIN|ParamSweep_Start2=|ParamSweep_Stop2=|ParamSweep_Step2=|ParamSweep_SweepType2=False|MonteCarlo_NumberOfRuns=10|MonteCarlo_DistributionType=GAUSS|MonteCarlo_Seed=-1|MonteCarlo_ResistorTolerance=10%|MonteCarlo_ResistorTolerance_UserValue=10%|MonteCarlo_CapacitorTolerance=10%|MonteCarlo_CapacitorTolerance_UserValue=10%|MonteCarlo_InductorTolerance=10%|MonteCarlo_InductorTolerance_UserValue=10%|MonteCarlo_TransistorTolerance=10%|MonteCarlo_TransistorTolerance_UserValue=10%|MonteCarlo_DCSourceTolerance=10%|MonteCarlo_DCSourceTolerance_UserValue=10%|MonteCarlo_DigitalTpTolerance=10%|MonteCarlo_DigitalTpTolerance_UserValue=10%|OldCfgLoaded=True|SimViewSetup=ShowActiveSignalsProbes|OPTION_Method=Trapezoidal|OPTION_SpiceRefNode_UserValue=|OPTION_SpiceRefNode=GND|OPTION_DVCC_UserValue=|OPTION_DVCC=5|OPTION_DVDD_UserValue=|OPTION_DVDD=15|SheetsToNetlist=0|ParamSweep_CustomStart0_UserValue=|ParamSweep_CustomStop0_UserValue=|ParamSweep_CustomStep0_UserValue=|ParamSweep_Start1_UserValue=|ParamSweep_Stop1_UserValue=|ParamSweep_Step1_UserValue=|LaunchDate=2022-02-15 18:02:39Z|DC_CustomStart0_UserValue=|DC_CustomStop0_UserValue=|DC_CustomStep0_UserValue=|DC_PrimaryStart_UserValue=|DC_PrimaryStop_UserValue=|DC_PrimaryStep_UserValue=|DC_CustomEnabled0=True|DC_CustomSource0=Temp|DC_CustomStart0=1n|DC_CustomStop0=1u|DC_CustomStep0=100n|ParamSweep_CustomEnabled0=True|ParamSweep_CustomParameter0=IC38A|ParamSweep_CustomType0=LIN|ParamSweep_CustomStart0=1n|ParamSweep_CustomStop0=1u|ParamSweep_CustomStep0=100n
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1018,7 +1004,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=PCB 3D Print
@@ -1036,7 +1022,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType5=PCBDrawing
@@ -1048,7 +1034,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType6=PCBLIB Print
 OutputName6=PCBLIB Prints
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType7=PDF3D
@@ -1081,6 +1067,30 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=PCBDrawing
+OutputName15=Draftsman
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1118,13 +1128,13 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType2=CompositeDrill
 OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType3=Drill
 OutputName3=Drill Drawing/Guides
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=Final
@@ -1141,17 +1151,17 @@ OutputDefault5=0
 OutputType6=Gerber X2
 OutputName6=Gerber X2 Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 OutputType7=IPC2581
 OutputName7=IPC-2581 Files
 OutputDocumentPath7=
-OutputVariantName7=
+OutputVariantName7=[No Variations]
 OutputDefault7=0
 OutputType8=Mask
 OutputName8=Solder/Paste Mask Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=NC Drill
@@ -1165,11 +1175,11 @@ OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical10=False|AddToAllPlots_Mechanical11=False|AddToAllPlots_Mechanical12=False|AddToAllPlots_Mechanical16=False|AddToAllPlots_Mechanical3=False|AddToAllPlots_Mechanical5=False|AddToAllPlots_Mechanical6=False|AddToAllPlots_Mechanical7=False|AddToAllPlots_Mechanical9=False|AddToAllPlots_SHIELD=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 21|Plot_V7_2=True|Plot_V7_2_name=Mechanical Layer 20|Plot_V7_3=True|Plot_V7_3_name=Mechanical Layer 32767|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=True|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=True|PlotMechanical5Plot=False|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=True|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
+Configuration10_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=True|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=True|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Metric|DocumentPath=C:\Users\Admin\Documents\Altium_testy\EEM_FMC_Carrier\PCB\PDNAnalyzer_Output\EEM_FMC_Carrier\SimulationDummy.PcbDoc
 OutputType11=Plane
 OutputName11=Power-Plane Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Test Points
@@ -1238,6 +1248,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1441,18 +1457,18 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=AnsysEDB
-OutputName10=Ansys EDB
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=MBAExportPARASOLID
-OutputName11=Export PARASOLID
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=MBAExportSTEP
-OutputName12=Export STEP
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
@@ -1588,6 +1604,23 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
 
 [Difference Levels]
 Type1=1
@@ -1658,6 +1691,12 @@ Type65=1
 Type66=1
 Type67=1
 Type68=0
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1669,7 +1708,7 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
@@ -1779,12 +1818,38 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=2
+MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1818,7 +1883,7 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=1
+CompClassManualEnabled=0
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
@@ -1832,11 +1897,17 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Resistors.DbLib/Resistors SMD
-ComponentDesignItemID0=R0402_22R_1%_0.0625W_100PPM
-ComponentSymbolReference0=Resistor - 1%
-ComponentUpdate0=1
+ComponentLibraryIdentifier0=ICs And Semiconductors.DbLib/Logic
+ComponentDesignItemID0=S25FL128SAGMFIR01
+ComponentSymbolReference0=S25FL128SAGMFIR01
+ComponentUpdate0=0
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Integrated_Library_LOADER.IntLib
+ComponentDesignItemID1=NCP51200MNTXG
+ComponentSymbolReference1=NCP51200MNTXG
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1850,73 +1921,79 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Author
+ParameterName0=Arrow Part Number
 ParameterUpdate0=1
-ParameterName1=Case
+ParameterName1=Arrow Price/Stock
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Author
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=Bonding
 ParameterUpdate3=1
-ParameterName4=Component Type
+ParameterName4=Case
 ParameterUpdate4=1
-ParameterName5=CreateDate
+ParameterName5=Comment
 ParameterUpdate5=1
-ParameterName6=Description
+ParameterName6=Component Kind
 ParameterUpdate6=1
-ParameterName7=Footprint
+ParameterName7=Component Type
 ParameterUpdate7=1
-ParameterName8=HelpURL
+ParameterName8=ComponentHeight
 ParameterUpdate8=1
-ParameterName9=LatestRevisionDate
+ParameterName9=CreateDate
 ParameterUpdate9=1
-ParameterName10=Library Reference
+ParameterName10=Datasheet Link
 ParameterUpdate10=1
-ParameterName11=Manufacturer
+ParameterName11=Description
 ParameterUpdate11=1
-ParameterName12=Manufacturer Part Number
+ParameterName12=Device
 ParameterUpdate12=1
-ParameterName13=Manufacturer1 ComponentHeight
+ParameterName13=Footprint
 ParameterUpdate13=1
-ParameterName14=Manufacturer1 Example
+ParameterName14=Height
 ParameterUpdate14=1
-ParameterName15=Manufacturer1 Part Number
+ParameterName15=HelpURL
 ParameterUpdate15=1
-ParameterName16=Mounted
+ParameterName16=LatestRevisionDate
 ParameterUpdate16=1
-ParameterName17=Part Description
+ParameterName17=Library Reference
 ParameterUpdate17=1
-ParameterName18=Part Number
+ParameterName18=Manufacturer
 ParameterUpdate18=1
-ParameterName19=Pin Count
+ParameterName19=Manufacturer Part Number
 ParameterUpdate19=1
-ParameterName20=Power
+ParameterName20=Manufacturer_Name
 ParameterUpdate20=1
-ParameterName21=PressFit
+ParameterName21=Manufacturer_Part_Number
 ParameterUpdate21=1
-ParameterName22=Sense
+ParameterName22=Mounted
 ParameterUpdate22=1
-ParameterName23=SMD
+ParameterName23=Mouser Part Number
 ParameterUpdate23=1
-ParameterName24=Socket
+ParameterName24=Mouser Price/Stock
 ParameterUpdate24=1
-ParameterName25=Status
+ParameterName25=PackageDescription
 ParameterUpdate25=1
-ParameterName26=TC
+ParameterName26=Part Description
 ParameterUpdate26=1
-ParameterName27=Tolerance
+ParameterName27=Part Number
 ParameterUpdate27=1
-ParameterName28=Value
+ParameterName28=Pin Count
 ParameterUpdate28=1
+ParameterName29=PressFit
+ParameterUpdate29=1
+ParameterName30=Sense
+ParameterUpdate30=1
+ParameterName31=SMD
+ParameterUpdate31=1
+ParameterName32=Socket
+ParameterUpdate32=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=RESC1005X40N
+ModelName0=SOIC127P1030X265-16N
 ModelUpdate0=1
-ModelTypeGroup1=SIM
-ModelTypeUpdate1=1
-ModelType1=SIM
-ModelName1=R_Resistor_Default
+ModelType1=PCBLIB
+ModelName1=SON50P300X300X100-11N
 ModelUpdate1=1
 
 [DatabaseUpdateOptions]

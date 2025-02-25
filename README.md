@@ -1,9 +1,15 @@
 # EEM FMC Carrier
 HPC FMC Carrier with Artix-7 FPGA in EEM form factor
 
+## Differences from FMC HPC specification
+- 4 MGT links instead of 10
+- HB signals are powered from VADJ, not from FMC_VIO_B_M2C
+
+Note that LVDS is supported only with VADJ=2.5V (selectable by jumpers).
+
 ## Design Files
 
-Design files (schematics, PCB layouts, BOMs) can be found in [Releases](https://github.com/sinara-hw/EEM_FMC_Carrier/releases).
+Check [Releases](https://github.com/sinara-hw/EEM_FMC_Carrier/releases) for reviewed versions of this module.
 
 ## Discussion
 

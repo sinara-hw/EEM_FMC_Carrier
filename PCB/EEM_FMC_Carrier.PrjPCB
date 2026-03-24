@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=DIOT
+CurrentVariant=EEM
 
 [Preferences]
 PrefsVaultGUID=
@@ -475,12 +475,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document26]
+DocumentPath=Power_Supply_1V0.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=26
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XYOPRYFG
+
 [ProjectVariant1]
 UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
-VariationCount=103
+VariationCount=102
 Variation1=Designator=R156|UniqueId=\HFXIRERH\HJFKCOUH|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R156
@@ -545,118 +562,55 @@ Variation51=Designator=C213|UniqueId=\ANNHCMBV\KLGYBYXT|Kind=1|AlternatePart=
 Variation52=Designator=C214|UniqueId=\ANNHCMBV\MKKQVIGF|Kind=1|AlternatePart=
 Variation53=Designator=C217|UniqueId=\ANNHCMBV\FXCONXVT|Kind=1|AlternatePart=
 Variation54=Designator=C218|UniqueId=\ANNHCMBV\DWWYGFUM|Kind=1|AlternatePart=
-Variation55=Designator=IC5|UniqueId=\JRHWWSLK\PJQAMNKS|Kind=1|AlternatePart=
-Variation56=Designator=IC6|UniqueId=\JRHWWSLK\HQOSEQKE|Kind=1|AlternatePart=
-Variation57=Designator=IC7|UniqueId=\JRHWWSLK\HORKDUKL|Kind=1|AlternatePart=
-Variation58=Designator=C46|UniqueId=\JRHWWSLK\XXPLOBVG|Kind=1|AlternatePart=
-Variation59=Designator=C47|UniqueId=\JRHWWSLK\IFVDRYAD|Kind=1|AlternatePart=
-Variation60=Designator=C48|UniqueId=\JRHWWSLK\BVQDRYQX|Kind=1|AlternatePart=
-Variation61=Designator=C49|UniqueId=\JRHWWSLK\OXRDDNOR|Kind=1|AlternatePart=
-Variation62=Designator=C50|UniqueId=\JRHWWSLK\RYGJXFOU|Kind=1|AlternatePart=
-Variation63=Designator=C51|UniqueId=\JRHWWSLK\BPCBXWVF|Kind=1|AlternatePart=
-Variation64=Designator=IC13|UniqueId=\EATHWGPN\AUFFIUSI|Kind=1|AlternatePart=
-Variation65=Designator=C94|UniqueId=\EATHWGPN\MLJVHUSD|Kind=1|AlternatePart=
-Variation66=Designator=R73|UniqueId=\EATHWGPN\QGGLKVGS|Kind=1|AlternatePart=
-Variation67=Designator=R74|UniqueId=\EATHWGPN\QGIFKJNY|Kind=1|AlternatePart=
-Variation68=Designator=R75|UniqueId=\EATHWGPN\TLFPNFRQ|Kind=1|AlternatePart=
-Variation69=Designator=C95|UniqueId=\EATHWGPN\ITYIMUCQ|Kind=1|AlternatePart=
-Variation70=Designator=C96|UniqueId=\EATHWGPN\UOYCESGI|Kind=1|AlternatePart=
-Variation71=Designator=L29|UniqueId=\EATHWGPN\LAFPXLQR|Kind=1|AlternatePart=
-Variation72=Designator=C201|UniqueId=\EATHWGPN\WGJBLHHC|Kind=1|AlternatePart=
-Variation73=Designator=IC35|UniqueId=\EATHWGPN\JEVAYPNA|Kind=1|AlternatePart=
-Variation74=Designator=C202|UniqueId=\EATHWGPN\JUAYOQWK|Kind=1|AlternatePart=
-Variation75=Designator=C286|UniqueId=\EATHWGPN\GQTIMHHP|Kind=1|AlternatePart=
-Variation76=Designator=R253|UniqueId=\CXDKFJFY\PKSVGHPV|Kind=1|AlternatePart=
-Variation77=Designator=R251|UniqueId=\CXDKFJFY\KQARVNDR|Kind=1|AlternatePart=
-Variation78=Designator=R245|UniqueId=\RTXBABPE\TSIXEXUK|Kind=1|AlternatePart=
-Variation79=Designator=R246|UniqueId=\RTXBABPE\ZABDJWLM|Kind=1|AlternatePart=
-Variation80=Designator=R126|UniqueId=\NULHDFKJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0805_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC2012X60N|AltLibLink_IsSameFootprint=True
-ParamVariation6=ParameterName=Comment|VariantValue==Value
-ParamDesignator6=R126
-ParamVariation7=ParameterName=Case|VariantValue=0805
-ParamDesignator7=R126
-ParamVariation8=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator8=R126
-ParamVariation9=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator9=R126
-ParamVariation10=ParameterName=CreateDate|VariantValue=03.12.2007
-ParamDesignator10=R126
-ParamVariation11=ParameterName=Database Table Name|VariantValue=Resistors SMD
-ParamDesignator11=R126
-ParamVariation12=ParameterName=Description|VariantValue=Resistor
-ParamDesignator12=R126
-ParamVariation13=ParameterName=Footprint|VariantValue=RESC2012X60N
-ParamDesignator13=R126
-ParamVariation14=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0805_NIC_NRC.pdf
-ParamDesignator14=R126
-ParamVariation15=ParameterName=Ibis Model|VariantValue=
-ParamDesignator15=R126
-ParamVariation16=ParameterName=LatestRevisionDate|VariantValue=13.03.2008
-ParamDesignator16=R126
-ParamVariation17=ParameterName=Library Reference|VariantValue=R0805_0R_JUMPER
-ParamDesignator17=R126
-ParamVariation18=ParameterName=Manufacturer|VariantValue=GENERIC
-ParamDesignator18=R126
-ParamVariation19=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.6mm
-ParamDesignator19=R126
-ParamVariation20=ParameterName=Manufacturer1 Example|VariantValue=NIC COMPONENT
-ParamDesignator20=R126
-ParamVariation21=ParameterName=Manufacturer1 Part Number|VariantValue=NRC10Z0
-ParamDesignator21=R126
-ParamVariation22=ParameterName=Manufacturer Part Number|VariantValue=R0805_0R_JUMPER
-ParamDesignator22=R126
-ParamVariation23=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator23=R126
-ParamVariation24=ParameterName=Part Description|VariantValue=2A (0.05R Max DC Resistance) Zero Ohm Jumper
-ParamDesignator24=R126
-ParamVariation25=ParameterName=Part Number|VariantValue=R0805_0R_JUMPER
-ParamDesignator25=R126
-ParamVariation26=ParameterName=PCB3D|VariantValue=
-ParamDesignator26=R126
-ParamVariation27=ParameterName=Pin Count|VariantValue=2
-ParamDesignator27=R126
-ParamVariation28=ParameterName=Pin Info|VariantValue=
-ParamDesignator28=R126
-ParamVariation29=ParameterName=PressFit|VariantValue=No
-ParamDesignator29=R126
-ParamVariation30=ParameterName=Sense|VariantValue=No
-ParamDesignator30=R126
-ParamVariation31=ParameterName=Signal Integrity|VariantValue=
-ParamDesignator31=R126
-ParamVariation32=ParameterName=Simulation|VariantValue=
-ParamDesignator32=R126
-ParamVariation33=ParameterName=SMD|VariantValue=Yes
-ParamDesignator33=R126
-ParamVariation34=ParameterName=Socket|VariantValue=No
-ParamDesignator34=R126
-ParamVariation35=ParameterName=Status|VariantValue=Preferred
-ParamDesignator35=R126
-ParamVariation36=ParameterName=Value|VariantValue=0
-ParamDesignator36=R126
-Variation81=Designator=R271|UniqueId=\IDVNPMOJ\YLCJTHRW|Kind=1|AlternatePart=
-Variation82=Designator=R129|UniqueId=\IDVNPMOJ\GYOSOIAW|Kind=1|AlternatePart=
-Variation83=Designator=C44|UniqueId=\EATHWGPN\SCSFISXW|Kind=1|AlternatePart=
-Variation84=Designator=C16|UniqueId=\JBOQDPNK\APAFPCEP|Kind=1|AlternatePart=
-Variation85=Designator=C305|UniqueId=\EATHWGPN\MJBTALJI|Kind=1|AlternatePart=
-Variation86=Designator=R3|UniqueId=\HFXIRERH\FGDODYED|Kind=1|AlternatePart=
-Variation87=Designator=R77|UniqueId=\HFXIRERH\WNWNQHOA|Kind=1|AlternatePart=
-Variation88=Designator=J11|UniqueId=\TAKSADSN\RPERGPYF|Kind=1|AlternatePart=
-Variation89=Designator=IC37|UniqueId=\QOARJYGO\UPQVXHZZ|Kind=1|AlternatePart=
-Variation90=Designator=C111|UniqueId=\QOARJYGO\ALZXBVVP|Kind=1|AlternatePart=
-Variation91=Designator=IC45|UniqueId=\QOARJYGO\YMDSSKHK|Kind=1|AlternatePart=
-Variation92=Designator=C114|UniqueId=\QOARJYGO\ZYIWLWQH|Kind=1|AlternatePart=
-Variation93=Designator=R144|UniqueId=\HFXIRERH\VEQAHJOZ|Kind=1|AlternatePart=
-Variation94=Designator=R143|UniqueId=\HFXIRERH\ZTDADGGW|Kind=1|AlternatePart=
-Variation95=Designator=IC26|UniqueId=\HFXIRERH\FDGWJAFK|Kind=1|AlternatePart=
-Variation96=Designator=IC25|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart=
-Variation97=Designator=R276|UniqueId=\RTXBABPE\RBNYQGVA|Kind=1|AlternatePart=
-Variation98=Designator=R41|UniqueId=\RTXBABPE\JHIMWNSU|Kind=1|AlternatePart=
-Variation99=Designator=R39|UniqueId=\RTXBABPE\DAFBJSBP|Kind=1|AlternatePart=
-Variation100=Designator=R40|UniqueId=\RTXBABPE\HEINQYFR|Kind=1|AlternatePart=
-Variation101=Designator=R38|UniqueId=\RTXBABPE\WWVBACGN|Kind=1|AlternatePart=
-Variation102=Designator=R270|UniqueId=\RTXBABPE\GENVWWRO|Kind=1|AlternatePart=
-Variation103=Designator=R283|UniqueId=\TAKSADSN\VDVLWZYJ|Kind=1|AlternatePart=
-ParamVariationCount=36
+Variation55=Designator=IC13|UniqueId=\EATHWGPN\AUFFIUSI|Kind=1|AlternatePart=
+Variation56=Designator=C94|UniqueId=\EATHWGPN\MLJVHUSD|Kind=1|AlternatePart=
+Variation57=Designator=R73|UniqueId=\EATHWGPN\QGGLKVGS|Kind=1|AlternatePart=
+Variation58=Designator=R74|UniqueId=\EATHWGPN\QGIFKJNY|Kind=1|AlternatePart=
+Variation59=Designator=R75|UniqueId=\EATHWGPN\TLFPNFRQ|Kind=1|AlternatePart=
+Variation60=Designator=C95|UniqueId=\EATHWGPN\ITYIMUCQ|Kind=1|AlternatePart=
+Variation61=Designator=C96|UniqueId=\EATHWGPN\UOYCESGI|Kind=1|AlternatePart=
+Variation62=Designator=L29|UniqueId=\EATHWGPN\LAFPXLQR|Kind=1|AlternatePart=
+Variation63=Designator=C201|UniqueId=\EATHWGPN\WGJBLHHC|Kind=1|AlternatePart=
+Variation64=Designator=IC35|UniqueId=\EATHWGPN\JEVAYPNA|Kind=1|AlternatePart=
+Variation65=Designator=C202|UniqueId=\EATHWGPN\JUAYOQWK|Kind=1|AlternatePart=
+Variation66=Designator=C286|UniqueId=\EATHWGPN\GQTIMHHP|Kind=1|AlternatePart=
+Variation67=Designator=R253|UniqueId=\CXDKFJFY\PKSVGHPV|Kind=1|AlternatePart=
+Variation68=Designator=R251|UniqueId=\CXDKFJFY\KQARVNDR|Kind=1|AlternatePart=
+Variation69=Designator=R245|UniqueId=\RTXBABPE\TSIXEXUK|Kind=1|AlternatePart=
+Variation70=Designator=R246|UniqueId=\RTXBABPE\ZABDJWLM|Kind=1|AlternatePart=
+Variation71=Designator=R271|UniqueId=\IDVNPMOJ\YLCJTHRW|Kind=1|AlternatePart=
+Variation72=Designator=R129|UniqueId=\IDVNPMOJ\GYOSOIAW|Kind=1|AlternatePart=
+Variation73=Designator=C44|UniqueId=\EATHWGPN\SCSFISXW|Kind=1|AlternatePart=
+Variation74=Designator=C16|UniqueId=\JBOQDPNK\APAFPCEP|Kind=1|AlternatePart=
+Variation75=Designator=C305|UniqueId=\EATHWGPN\MJBTALJI|Kind=1|AlternatePart=
+Variation76=Designator=R3|UniqueId=\HFXIRERH\FGDODYED|Kind=1|AlternatePart=
+Variation77=Designator=R77|UniqueId=\HFXIRERH\WNWNQHOA|Kind=1|AlternatePart=
+Variation78=Designator=J11|UniqueId=\TAKSADSN\RPERGPYF|Kind=1|AlternatePart=
+Variation79=Designator=IC37|UniqueId=\QOARJYGO\UPQVXHZZ|Kind=1|AlternatePart=
+Variation80=Designator=C111|UniqueId=\QOARJYGO\ALZXBVVP|Kind=1|AlternatePart=
+Variation81=Designator=IC45|UniqueId=\QOARJYGO\YMDSSKHK|Kind=1|AlternatePart=
+Variation82=Designator=C114|UniqueId=\QOARJYGO\ZYIWLWQH|Kind=1|AlternatePart=
+Variation83=Designator=R144|UniqueId=\HFXIRERH\VEQAHJOZ|Kind=1|AlternatePart=
+Variation84=Designator=R143|UniqueId=\HFXIRERH\ZTDADGGW|Kind=1|AlternatePart=
+Variation85=Designator=IC26|UniqueId=\HFXIRERH\FDGWJAFK|Kind=1|AlternatePart=
+Variation86=Designator=IC25|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart=
+Variation87=Designator=R276|UniqueId=\RTXBABPE\RBNYQGVA|Kind=1|AlternatePart=
+Variation88=Designator=R41|UniqueId=\RTXBABPE\JHIMWNSU|Kind=1|AlternatePart=
+Variation89=Designator=R39|UniqueId=\RTXBABPE\DAFBJSBP|Kind=1|AlternatePart=
+Variation90=Designator=R40|UniqueId=\RTXBABPE\HEINQYFR|Kind=1|AlternatePart=
+Variation91=Designator=R38|UniqueId=\RTXBABPE\WWVBACGN|Kind=1|AlternatePart=
+Variation92=Designator=R270|UniqueId=\RTXBABPE\GENVWWRO|Kind=1|AlternatePart=
+Variation93=Designator=R283|UniqueId=\TAKSADSN\VDVLWZYJ|Kind=1|AlternatePart=
+Variation94=Designator=J6|UniqueId=\RTXBABPE\LIDFICHD|Kind=1|AlternatePart=
+Variation95=Designator=J7|UniqueId=\RTXBABPE\HQYQOTEN|Kind=1|AlternatePart=
+Variation96=Designator=R134|UniqueId=\RTXBABPE\VBZDRNFF|Kind=1|AlternatePart=
+Variation97=Designator=R132|UniqueId=\RTXBABPE\KZPWKCYA|Kind=1|AlternatePart=
+Variation98=Designator=R135|UniqueId=\RTXBABPE\TDLAKUCP|Kind=1|AlternatePart=
+Variation99=Designator=R139|UniqueId=\RTXBABPE\LVDYHNVL|Kind=1|AlternatePart=
+Variation100=Designator=R137|UniqueId=\RTXBABPE\IKHZUHOD|Kind=1|AlternatePart=
+Variation101=Designator=C219|UniqueId=\HFXIRERH\WQBWDHNI|Kind=1|AlternatePart=
+Variation102=Designator=C220|UniqueId=\HFXIRERH\NDFIXKIP|Kind=1|AlternatePart=
+ParamVariationCount=5
 
 [ProjectVariant2]
 UniqueId=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
